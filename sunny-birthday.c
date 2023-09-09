@@ -2,5 +2,6 @@
 
 int main() 
 {
-	printf("Happy birthday Sunny");
+	printf("Happy birthday Sunny\n");
+	return 0;
 }
