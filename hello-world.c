@@ -2,6 +2,8 @@
 
 int main(void)
 {
-	printf("Hello, world!\n");
+	char greetings[50];
+	strcpy(greetings, "World!");
+	printf("Hello,%s\n", greetings);
 	return 0;
 }
