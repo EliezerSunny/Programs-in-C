@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-	char var;
-	var = "Hello, World!";
-	printf("%s\n", var);
+	printf("Hello, world!\n");
 	return 0;
 }
